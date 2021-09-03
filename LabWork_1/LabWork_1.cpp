@@ -9,7 +9,7 @@ int OutputAndReturnSum(int);
 
 void OutputInformationAboutMe()
 {
-    cout << "Шестаков БИ-31" << endl << endl;
+    cout << "Шестаков Андрей БИ-31 (21 вариант)" << endl << endl;
 }
 
 int GetNumberOperand()
