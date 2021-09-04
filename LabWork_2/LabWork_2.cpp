@@ -44,8 +44,10 @@ pair<int, int> GetCoordinat()
         cout << "Введите координату по горизонтали: ";
         cin >> second;
 
-    } while (((first + second) > 16) or ((first + second) < 2));
-
+    } while (((first + first) > 16) or 
+             ((first + first) < 2) or
+             ((second + second) > 16) or
+             ((second + second) < 2));
     return {first, second};
 }
 
