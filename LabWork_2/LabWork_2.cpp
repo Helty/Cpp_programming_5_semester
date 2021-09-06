@@ -111,10 +111,16 @@ void main()
     else
     {
         PrintChessBoard(ChessBoard, Horse, Target);
+            //ниже коня:
         if ((((Horse.first + 1) == Target.first) and ((Horse.second - 2) == Target.second)) or 
             (((Horse.first + 1) == Target.first) and ((Horse.second + 2) == Target.second)) or
             (((Horse.first + 2) == Target.first) and ((Horse.second - 1) == Target.second)) or
-            (((Horse.first + 2) == Target.first) and ((Horse.second + 1) == Target.second)))
+            (((Horse.first + 2) == Target.first) and ((Horse.second + 1) == Target.second)) or
+            //выше коня:
+            (((Horse.first - 1) == Target.first) and ((Horse.second - 2) == Target.second)) or
+            (((Horse.first - 1) == Target.first) and ((Horse.second + 2) == Target.second)) or
+            (((Horse.first - 2) == Target.first) and ((Horse.second - 1) == Target.second)) or
+            (((Horse.first - 2) == Target.first) and ((Horse.second + 1) == Target.second)))
         {
             cout << endl << "YEEEES";
         }
