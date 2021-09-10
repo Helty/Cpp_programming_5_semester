@@ -59,12 +59,6 @@ bool CheckingError(vector<vector<int>> ChessBoard, pair<int, int> Horse, pair<in
         cout << "Конь и место куда надо попасть совпадают!" << endl;
         return true;
     }
-    else if (Target.first < Horse.first)
-    {
-        PrintChessBoard(ChessBoard, Horse, Target);
-        cout << "Вы ходите белой фигурой, которая ходит сверху вниз, а ваша цель находится выше вашего коня." << endl;
-        return true;
-    }
     else if (Target.first == Horse.first)
     {
         PrintChessBoard(ChessBoard, Horse, Target);
