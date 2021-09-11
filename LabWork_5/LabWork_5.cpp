@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <vector>
-#include "../../LibraryForCPP/boost_1_77_0/boost/multiprecision/cpp_int.hpp"
+#include <boost/multiprecision/cpp_int.hpp>
 
 using namespace std;
 using namespace boost::multiprecision;
