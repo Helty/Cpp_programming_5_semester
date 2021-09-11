@@ -17,7 +17,7 @@ int main()
 {
     setlocale(LC_ALL, "Rus");
 
-    const regex RegExp(R"(\(\d+\-\d+\))");
+    const regex RegExp(R"(^\(\d+\-\d+\))");
 
 	do
 	{
